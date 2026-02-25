@@ -39,3 +39,8 @@ sqlx = { version = "0.8.6", features = ["sqlite", "runtime-tokio-rustls", "macro
 bcrypt = "0.18.0"
 ```
 
+フロントエンドをCloudflare Pagesで公開
+/frontendで
+```bash
+npm run build
+```
