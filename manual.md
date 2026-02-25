@@ -44,3 +44,14 @@ bcrypt = "0.18.0"
 ```bash
 npm run build
 ```
+CloudflareにSignUpしてGitHubのリポジトリと紐づける
+
+Build settingを以下の通りにする
+```
+Build command
+    npm run build
+Deploy command
+    npx wrangler deploy
+Root directory
+    /frontend/
+```
